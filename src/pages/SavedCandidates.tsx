@@ -27,7 +27,7 @@ const SavedCandidates = () => {
   }
   return (
     <div style={{ padding: "20px", color: "white", minHeight: "100vh" }}>
-      <h2 style={{ textAlign: "center", marginBottom: "20px", fontsize: "60px" }}>Potential Candidates</h2>
+      <h2 style={{ textAlign: "center", marginBottom: "20px", fontSize: "60px" }}>Potential Candidates</h2>
     <List
       candidates={savedCandidates}
       onRemove={handleRemove}
